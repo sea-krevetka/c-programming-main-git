@@ -33,3 +33,18 @@ void stalin_sort(int* numbers, int* size) {
 
     free(gulag);
 }
+
+int main() { //added main
+    int numbers[] = {5, 3, 8, 6, 7, 2, 42, 38, 5};
+    int size = sizeof(numbers) / sizeof(numbers[0]);
+
+    printf("Original Numbers: ");
+    for (int i = 0; i < size; i++) {
+        printf("%d ", numbers[i]);
+    }
+    printf("\n");
+
+    stalin_sort(numbers, &size);
+
+    return 0;
+}
