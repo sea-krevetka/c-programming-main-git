@@ -1,7 +1,7 @@
 void stalin_sort(int* numbers, int* size) {
     int i = 0;
     int maximal = numbers[0];
-    int* gulag = (int*)malloc(*size * sizeof(int));
+    int* gulag = (int*)malloc(*size * sizeof(int)); //creating array
     int gulag_size = 0;
 
     while (i < *size) {
@@ -23,7 +23,7 @@ void stalin_sort(int* numbers, int* size) {
     for (i = 0; i < *size; i++) {
         printf("%d ", numbers[i]);
     }
-    printf("\n"); //yay its a comment?
+    printf("\n"); //yay its a comment!!
 
     printf("Gulag: ");
     for (i = 0; i < gulag_size; i++) {
