@@ -35,7 +35,7 @@ void stalin_sort(int* numbers, int* size) {
 }
 
 int main() { //added main
-    int numbers[] = {5, 3, 8, 6, 7, 2, 42, 38, 5};
+    int numbers[] = {5, 3, 8, 6, 7, 2, 42, 38};
     int size = sizeof(numbers) / sizeof(numbers[0]);
 
     printf("Original Numbers: ");
